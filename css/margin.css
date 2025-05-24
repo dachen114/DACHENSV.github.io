@@ -1,0 +1,15 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+div{
+	height:150px;
+	width:150px;
+	background:skyblue;
+	border:1px solid red;
+	float:left;
+}
+.div1{
+	margin: 10px;
+}

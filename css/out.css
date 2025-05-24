@@ -1,0 +1,14 @@
+html,body{
+	background: linear-gradient(to right, #BBFFFF, #F5F5DC)
+}
+
+
+div{
+	width:100px;
+	height:60px;
+	background-color:#556B2F ;
+	border:1px solid #000;
+	border-radius: 10px;
+	position: relative;
+
+}
