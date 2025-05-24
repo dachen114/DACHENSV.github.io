@@ -2,13 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>选择载具</title>
+	<title>menu</title>
 	<link rel="stylesheet" type="text/css" href="../css/indexout.css">>
 </head>
 <body>
 	<h1>DACHEN</h1>
 	<hr />
-	<img src="../images/p03.jpg" alt="ER" title="t90">
+	<table border="1px">
+	<tr>
+		<td><form action="list.html"><input type="submit" name="button" value="list练习"/></form></td>
+		<td><form action="margin.html"><input type="submit" name="button" value="margin练习"/></form></td>
+		<td><form action="padding.html"><input type="submit" name="button" value="padding练习"/></form></td>
+		<td><form action="position.html"><input type="submit" name="button" value="position练习"/></form></td>
+		<td><form action="position2.html"><input type="submit" name="button" value="position练习2"/></form></td>
+	</table>
+	
 	<form method="post" action="out.html">
 		<select name="列表名称" size="行数" >
 			<option value="选项的值" selected="selected">T-90 </option>
@@ -20,5 +28,7 @@
 		</select>
 		<input type="submit" name="button" value="确认"/>
 	</form>
+	<img src="../images/p03.jpg" alt="ER" title="t90">
+
 </body>
 </html>
